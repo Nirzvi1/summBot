@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "summBot",
+  "description": "This extension gives a brief description of an article or selected text for the user.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": { 
+    "persistent": false, 
+    "scripts": ["background.js"] 
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs", 
+    "http://*/*",
+    "contextMenus"
+  ],
+
+  "icons": {
+    "16": "icon.png"
+  }
+}

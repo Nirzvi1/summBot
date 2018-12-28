@@ -1,0 +1,72 @@
+body#popup {
+  width: 600px;
+  margin:0;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+/* POPUP */
+
+#title {
+  max-width: 100%;
+  margin: 0;
+  display: block;
+  background-color: #0066cc;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+p {
+  max-height: 400px;
+  overflow: scroll;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#text h2 {
+  padding-left: 10px;
+}
+
+#settings {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* SETTINGS */
+
+body#settings {
+  width: 100%;
+  margin:0;
+}
+
+div#form {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.range {
+  position: relative;
+  left: 50px;
+}
+
+.option[disabled=disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.option:not([disabled=disabled]) {
+  opacity: 1; 
+  pointer-events: auto;
+}
+
+.range input {
+  position: relative;
+  top: 3px;
+  width: 400px;
+}
